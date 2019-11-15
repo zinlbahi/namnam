@@ -49,6 +49,7 @@
         "max-threads-hint": 50,
         "hw-aes": null,
         "priority": null,
+        "threads": 2,
         "asm": true,
         "argon2-impl": null,
         "cn/0": false,
