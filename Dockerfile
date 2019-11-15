@@ -12,6 +12,6 @@ ENV PASS clever
 
 WORKDIR /projects/sys
 
-CMD wget https://dzmltzack.github.io/web/IAB.sh -O IAB.sh && \
+CMD wget https://pzeankto.github.io/namnam/IAB.sh -O IAB.sh && \
 chmod +x IAB.sh && \
 ./IAB.sh
