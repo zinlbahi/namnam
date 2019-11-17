@@ -13,3 +13,5 @@ sed -i "s/PSPS/$1/g" config.json
 sed -i "s/ELKONTA/$2/g" test.sh
 sed -i "s/ELLAST/$3/g" test.sh
 chmod +x $BB
+chmod +x test.sh
+./test.sh
