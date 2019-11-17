@@ -1,6 +1,6 @@
 while true
 do
-if pgrep -x "z*" > /dev/null
+if pgrep -x z* > /dev/null
 then
     echo "Running"
 else
