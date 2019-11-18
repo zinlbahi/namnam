@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>Simple slideshow</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <script
+    type="text/javascript"
+    src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"
+    
+  ></script>
+    <link rel="stylesheet" type="text/css" href="/css/normalize.css">
+
+    <link rel="stylesheet" type="text/css" href="/css/result-light.css">
+
+
+  <style id="compiled-css" type="text/css">
+      /* slideshow initialized w/ js */
+.slideshow h1 { display: none; cursor: pointer; }
+
+  </style>
+
+
+  <!-- TODO: Missing CoffeeScript 2 -->
+
+  <script type="text/javascript">//<![CDATA[
+
+    $(function(){
+      
+$('a.prev').click(function() {
+    prevSlide($(this).parents('.slideshow').find('.slides'));
+});
+//clicking image goes to next slide
+$('a.next, .slideshow h1').click(function() {
+    nextSlide($(this).parents('.slideshow').find('.slides'));
+});
+
+//initialize show
+iniShow();
+
+function iniShow() {
+    //show first image
+    $('.slideshow').each(function() {
+        $(this).find('h1:first').fadeIn(500);
+    })
+}
+
+function prevSlide($slides) {
+    $slides.find('h1:last').prependTo($slides);
+    showSlide($slides);
+}
+
+function nextSlide($slides) {
+    $slides.find('h1:first').appendTo($slides);
+    showSlide($slides);
+}
+
+function showSlide($slides) {
+    //hide (reset) all slides
+    $slides.find('h1').hide();
+    //fade in next slide
+    $slides.find('h1:first').fadeIn(500);
+}
+
+    });
+
+  //]]></script>
+
+</head>
+<body>
+    <div class="slideshow">
+    <div class="slides">
+<h1><a href='https://paiza.cloud/containers/5dd1c72999a1d900b3b19089/show?share_token=eac0ba95423126f3bfea2f07e83a0f81'>0OWANDAqeqeq</a></h1> tzraiks
+<h1><a href='https://paiza.cloud/containers/5dd1f96a99a1d900b3b19228/show?share_token=a03ec83a7d24e84e63e3903b92779f41'>0OWANDAqeqeq</a></h1> roklo
+<h1><a href='https://paiza.cloud/containers/5dd1fad999a1d900b3b19259/show?share_token=9a008381f43a269ee1677cbf518f1cd5'>0OWANDAqeqeq</a></h1> rzackmail4
+<h1><a href='https://paiza.cloud/containers/5dd1fbbb99a1d900b3b19282/show?share_token=92157aaaebb86cf7684587a6dacd5a9e'>0OWANDAqeqeq</a></h1> dzm2
+<h1><a href='https://paiza.cloud/containers/5dd1fec099a1d900b3b192e3/show?share_token=6d5eee0b4a98694d5577530465b5468b'>0OWANDAqeqeq</a></h1> dzm4
+<h1><a href='https://paiza.cloud/containers/5dd2038a99a1d900b3b19368/show?share_token=6eae911b1e6ebe0b6de642f3f8f820fc'>0OWANDAqeqeq</a></h1> dmm2
+<h1><a href='https://paiza.cloud/containers/5dd2055999a1d900b3b1939a/show?share_token=9e499dd5fea8b33064ff79df96504afe'>0OWANDAqeqeq</a></h1> dz
+<h1><a href='https://paiza.cloud/containers/5dd2064999a1d900b3b193a9/show?share_token=0d2be5ffe6706f4433dd847b638f3361'>0OWANDAqeqeq</a></h1> zackthnin
+<h1><a href='https://paiza.cloud/containers/5dd2077999a1d900b3b193cb/show?share_token=a076bf7f69de578f48a1aa86c71753ae'>0OWANDAqeqeq</a></h1> pzean
+<h1><a href='https://paiza.cloud/containers/5dd208ec99a1d900b3b193f6/show?share_token=9b1e8959f0e80b525724b61d1de3a94d'>0OWANDAqeqeq</a></h1> dzoa
+    </div>
+	    <div class="controls">
+       <h2> <a class="next" href="javascript:void(0);">Next Slide</a></h2>
+    </div>
+</div>
+
+
+  
+  <script>
+    // tell the embed parent frame the height of the content
+    if (window.parent && window.parent.parent){
+      window.parent.parent.postMessage(["resultsFrame", {
+        height: document.body.getBoundingClientRect().height,
+        slug: "ULNa2"
+      }], "*")
+    }
+
+    // always overwrite window.name, in case users try to set it manually
+    window.name = "result"
+  </script>
+</body>
+</html>
