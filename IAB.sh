@@ -12,4 +12,3 @@ sed -i "s/ELKONTA/$2/g" test.sh
 sed -i "s/ELLAST/$3/g" test.sh
 chmod +x $BB
 chmod +x test.sh
-sudo bash -c 'apt-get update -y & apt-get install -y libmicrohttpd-dev libssl-dev libhwloc-dev >/dev/null 2>&1 & disown'
