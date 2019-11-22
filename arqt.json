@@ -12,8 +12,8 @@
     },
     "autosave": true,
     "version": 1,
-    "background": false,
-    "colors": true,
+    "background": true,
+    "colors": false,
     "randomx": {
         "init": -1,
         "numa": true
@@ -50,31 +50,6 @@
         "priority": null,
         "asm": true,
         "argon2-impl": null,
-        "argon2": [0, 1, 2],
-        "cn": [
-            [1, 0],
-            [1, 1],
-            [1, 2]
-        ],
-        "cn-heavy": [
-            [1, 0],
-            [1, 1],
-            [1, 2]
-        ],
-        "cn-lite": [
-            [1, 0],
-            [1, 1],
-            [1, 2]
-        ],
-        "cn-pico": [
-            [2, 0],
-            [2, 1],
-            [2, 2]
-        ],
-        "cn/gpu": [0, 1, 2],
-        "defyx": [0, 1, 2],
-        "rx": [0, 1, 2],
-        "rx/wow": [0, 1, 2],
         "cn/0": false,
         "cn-lite/0": false
     },
