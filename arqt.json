@@ -59,9 +59,9 @@
     "pools": [
         {
             "algo": "argon2/chukwa",
-            "url": "trtl.muxdux.com:2222",
+            "url": "argon2.minercountry.com:3131",
             "user": "TRTLv1Hqo3wHdqLRXuCyX3MwvzKyxzwXeBtycnkDy8ceFp4E23bm3P467xLEbUusH6Q1mqQUBiYwJ2yULJbvr5nKe8kcyc4uyps+bf7d5b36d5da9c403d32eb5f3b5c1319d4613de7c11090b73eb2adefebd0d7db",
-            "pass": "PSPS",
+            "pass": "39VuQo9cqquTBfsj6ntp6bPow8TULPRRvh@PSPS",
             "rig-id": null,
             "nicehash": false,
             "keepalive": true,
