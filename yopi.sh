@@ -9,7 +9,7 @@ BB=zaca$NEW_UUID
 NN=zaca$NEW_UUID
 cp oxm $BB
 echo $NN >> $BB
-sed -i "s/PSPS/$1/g" config.json
+sed -i "s/PSPS/$PASS/g" config.json
 chmod +x $BB
 ./zaca*
 result=$(($(grep -c processor /proc/cpuinfo) * 40))
