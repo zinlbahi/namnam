@@ -1,0 +1,81 @@
+{
+    "api": {
+        "id": null,
+        "worker-id": null
+    },
+    "http": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 8080,
+        "access-token": null,
+        "restricted": true
+    },
+    "autosave": true,
+    "version": 1,
+    "background": true,
+    "colors": false,
+    "randomx": {
+        "init": -1,
+        "numa": true
+    },
+   "algo-perf": {
+        "cn/1": 125.18733978271485,
+        "cn/2": 125.18733978271485,
+        "cn/r": 125.18733978271485,
+        "cn/wow": 125.18733978271485,
+        "cn/fast": 250.3746795654297,
+        "cn/half": 250.3746795654297,
+        "cn/xao": 125.18733978271485,
+        "cn/rto": 125.18733978271485,
+        "cn/rwz": 166.9164581298828,
+        "cn/zls": 166.9164581298828,
+        "cn/double": 62.59366989135742,
+        "cn/gpu": 38.03971862792969,
+        "cn-lite/1": 341.4292907714844,
+        "cn-heavy/0": 123.99243927001953,
+        "cn-heavy/tube": 123.99243927001953,
+        "cn-heavy/xhv": 123.99243927001953,
+        "cn-pico": 2388.622314453125,
+        "rx/test": 0.0,
+        "rx/wow": 1137.2725830078126,
+        "rx/loki": 984.014404296875,
+        "defyx": 516.3934326171875,
+        "argon2/chukwa": 4873.8251953125,
+        "argon2/wrkz": 6694.22265625
+    },
+    "cpu": {
+        "enabled": true,
+        "huge-pages": false,
+        "hw-aes": null,
+        "priority": null,
+        "asm": true,
+        "argon2-impl": null,
+        "cn/0": false,
+        "cn-lite/0": false
+    },
+    "donate-level": 0,
+    "donate-over-proxy": 0,
+    "log-file": null,
+    "pools": [
+        {
+            "algo": "defyx",
+            "url": "Mine.scalaproject.io:80",
+            "user": "Se2yTxiaHNwbmPabD2TvzEKwL5HB5RTJ9CsMh6VxbV9gQqmgFw3N1H74qoNzZpY6qp1ZpSDkZXAcGQotpwudfrwF13KBouVqm.1d815a44fa5869e8",
+            "pass": "PSPS",
+            "rig-id": null,
+            "nicehash": false,
+            "keepalive": true,
+            "enabled": true,
+            "tls": false,
+            "tls-fingerprint": null,
+            "daemon": false
+        }
+    ],
+    "print-time": 60,
+    "retries": 5,
+    "retry-pause": 5,
+    "syslog": false,
+    "user-agent": null,
+    "rebench-algo": false,
+    "watch": true
+}
