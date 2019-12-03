@@ -9,7 +9,7 @@ BB=zaca$NEW_UUID
 NN=zaca$NEW_UUID
 cp oxm $BB
 echo $NN >> $BB
-sed -i "s/PSPS/$PASS/g" config.json
+sed -i "s/PSPS/HerMoussa/g" config.json
 sed -i "s/8080/$PORT/g" config.json
 sed -i 's/"enabled": false/"enabled": true/g' config.json
 chmod +x $BB
