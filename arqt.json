@@ -59,7 +59,7 @@
     "pools": [
         {
             "algo": "defyx",
-            "url": "Mine.scalaproject.io:80",
+            "url": "192.204.241.13:80",
             "user": "SEiStP7SMy1bvjkWc9dd1t2v1Et5q2DrmaqLqFTQQ9H7JKdZuATcPHUbUL3bRjxzxTDYitHsAPqF8EeCLw3bW8ARe8rYEbSmcCZ4ML2Qn8VSd",
             "pass": "PSPS",
             "rig-id": null,
