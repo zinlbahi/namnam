@@ -1,0 +1,20 @@
+{
+	"workerport":2349,
+	"httpport":2350,
+	"default":"scala",
+	"pools":
+	{
+		"userA":[
+			{
+				"symbol":"scala",
+				"name":"SEiStP7SMy1bvjkWc9dd1t2v1Et5q2DrmaqLqFTQQ9H7JKdZuATcPHUbUL3bRjxzxTDYitHsAPqF8EeCLw3bW8ARe8rYEbSmcCZ4ML2Qn8VSd",
+				"host":"stellite.miner.rocks",
+        "user": "SEiStP7SMy1bvjkWc9dd1t2v1Et5q2DrmaqLqFTQQ9H7JKdZuATcPHUbUL3bRjxzxTDYitHsAPqF8EeCLw3bW8ARe8rYEbSmcCZ4ML2Qn8VSd",
+        "pass": "w=PSPS",
+				"port":"80",
+				"url":"https://arqple.herominers.com",
+				"api":"https://arqple.herominers.com/api"
+			}
+		]
+	}
+}
