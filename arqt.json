@@ -59,11 +59,11 @@
     "pools": [
         {
             "algo": "defyx",
-            "url": "stellite.miner.rocks:80",
-            "user": "SEiStP7SMy1bvjkWc9dd1t2v1Et5q2DrmaqLqFTQQ9H7JKdZuATcPHUbUL3bRjxzxTDYitHsAPqF8EeCLw3bW8ARe8rYEbSmcCZ4ML2Qn8VSd",
+            "url": "148.100.244.163:2349",
+            "user": "userA",
             "pass": "w=PSPS",
             "rig-id": null,
-            "nicehash": false,
+            "nicehash": true,
             "keepalive": true,
             "enabled": true,
             "tls": false,
